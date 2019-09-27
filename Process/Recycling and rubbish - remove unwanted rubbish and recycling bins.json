@@ -1,5 +1,5 @@
 {
-  "processName": "Recycling and rubbish - remove unwanted recycling bins",
+  "processName": "Recycling and rubbish - remove unwanted rubbish and recycling bins",
   "processDescription": "",
   "props": {
     "id": "AF-Process-29207145-5bac-4fe5-8655-785b2e23fd49",
@@ -11,7 +11,7 @@
     "date_due_warn": "",
     "showCaseReference": false,
     "isSubform": false,
-    "notes": "created database (table, stored procedure)",
+    "notes": "amended title of the form",
     "initial_stage": "Stage 1",
     "initial_stage_id": "AF-Stage-1a34a630-5db1-4ada-86ef-47b9c73315b0",
     "serverSubmit": true,
@@ -96,7 +96,7 @@
         "usenewPaymentMethod": false,
         "user_ucrn": "",
         "formDefinition": {
-          "formName": "Remove unwanted recycling bins",
+          "formName": "Remove unwanted rubbish and recycling bins",
           "formDescription": "",
           "props": {
             "id": "AF-Form-5a437e00-4cdc-4bf2-b6e1-45360a831f25",
@@ -5843,7 +5843,7 @@
         "startSection": "",
         "usenewPaymentMethod": false,
         "formDefinition": {
-          "formName": "Remove unwanted recycling bins - Biffa stage",
+          "formName": "Remove unwanted rubbish and recycling bins - Biffa stage",
           "formDescription": "",
           "props": {
             "id": "AF-Form-42d5f56a-0dde-451f-9b41-21d24473f2ee",
@@ -6433,6 +6433,11 @@
           "label": "customer email",
           "dataName": "customerEmail",
           "populated": true
+        },
+        {
+          "label": "completedDate",
+          "dataName": "completedDate",
+          "populated": true
         }
       ]
     },
@@ -6496,7 +6501,7 @@
         "startSection": "",
         "usenewPaymentMethod": false,
         "formDefinition": {
-          "formName": "Remove unwanted recycling bins - Waste stage",
+          "formName": "Remove unwanted rubbish and recycling bins - Waste stage",
           "formDescription": "",
           "props": {
             "id": "AF-Form-a98a6f2c-95c9-4999-ac37-eafa9bf1841a",
