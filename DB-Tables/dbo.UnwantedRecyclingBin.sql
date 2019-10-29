@@ -1,7 +1,7 @@
 USE [ProdRubbishRecycling]
 GO
 
-/****** Object:  Table [dbo].[UnwantedRecyclingBin]    Script Date: 27/09/2019 11:30:52 ******/
+/****** Object:  Table [dbo].[UnwantedRecyclingBin]    Script Date: 29/10/2019 08:33:28 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -20,9 +20,9 @@ CREATE TABLE [dbo].[UnwantedRecyclingBin](
 	[TypeBin] [varchar](100) NOT NULL,
 	[NumberBin] [int] NOT NULL,
 	[DescribeLocation] [varchar](max) NOT NULL,
-	[BinCollected] [varchar](15) NULL,
+	[BinCollected] [varchar](max) NULL,
 	[CommentsBiffa] [varchar](max) NULL,
-	[CallOutcome] [varchar](50) NULL,
+	[CallOutcome] [varchar](max) NULL,
 	[CommentsWaste] [varchar](max) NULL,
 	[CompletedDate] [date] NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]

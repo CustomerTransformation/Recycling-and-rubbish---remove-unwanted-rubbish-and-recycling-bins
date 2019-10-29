@@ -1,7 +1,7 @@
 USE [ProdRubbishRecycling]
 GO
 
-/****** Object:  StoredProcedure [dbo].[UnwantedRecyclingBinProc]    Script Date: 27/09/2019 11:32:11 ******/
+/****** Object:  StoredProcedure [dbo].[UnwantedRecyclingBinProc]    Script Date: 29/10/2019 08:33:59 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -26,9 +26,9 @@ CREATE PROCEDURE [dbo].[UnwantedRecyclingBinProc]
       @TypeBin varchar(100),
       @NumberBin int,
       @DescribeLocation varchar(max),
-      @BinCollected varchar(15),
+      @BinCollected varchar(max),
       @CommentsBiffa varchar(max),
-      @CallOutcome varchar(50),
+      @CallOutcome varchar(max),
       @CommentsWaste varchar(max),
 	  @CompletedDate date
 AS
